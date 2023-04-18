@@ -1,0 +1,10 @@
+To test go to the /tests dir and type this following command:
+
+g++ <test_file_name>.cpp catch2/catch2.cpp ../source/<file_name>.cpp  // etc. if there are more than 1 files
+Example: 
+g++ Library_tst.cpp catch2/catch2.cpp ../source/Library.cpp ../source/Book.cpp ../source/MyString.cpp
+
+To run the program:
+
+g++ ./source/main.cpp ./source/MyString.cpp ./source/Book.cpp ./source/Library.cpp ./source/LibraryCollection.cpp       
+
